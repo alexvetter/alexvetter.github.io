@@ -2,7 +2,7 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:20px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
@@ -22,6 +22,7 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
+  border-bottom: 2px solid #ccc;
 }
 
 h2 {
@@ -34,7 +35,7 @@ h3, h4, h5, h6 {
 
 a {
   color:#39c;
-  font-weight:400;
+  font-weight: bold;
   text-decoration:none;
 }
 
@@ -46,7 +47,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:540px;
   margin:0 auto;
 }
 
@@ -71,34 +72,8 @@ pre {
   overflow-x: auto;
 }
 
-table {
-  width:100%;
-  border-collapse:collapse;
-}
-
-th, td {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
-}
-
-dt {
-  color:#444;
-  font-weight:700;
-}
-
-th {
-  color:#444;
-}
-
 img {
   max-width:100%;
-}
-
-header {
-  width:270px;
-  float:left;
-  position:fixed;
 }
 
 header ul {
@@ -138,9 +113,9 @@ header ul a {
   height:40px;
 }
 
-strong {
+strong, b {
   color:#222;
-  font-weight:700;
+  font-weight:600;
 }
 
 header ul li + li {
@@ -160,8 +135,6 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
   padding-bottom:50px;
 }
 
@@ -177,10 +150,7 @@ hr {
 }
 
 footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
+  border-top: 2px solid #ccc;
 }
 
 @media print, screen and (max-width: 960px) {
